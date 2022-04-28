@@ -14,7 +14,7 @@ const pages = [
     { page: 'Home', path: '/question-answering' },
     { page: 'Projects', path: 'https://dida.do/projects' },
     { page: 'Blog', path: 'https://dida.do/blog' },
-    { page: 'About', path: '/about' },
+    { page: 'About', path: '/question-answering/about' },
   ];
 
 const Header = () => {

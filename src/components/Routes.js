@@ -8,7 +8,7 @@ const Routes = () => {
     <>
         <RouterLink>
             <Route exact path='/question-answering' element={<Home/>}/>
-            <Route path='/about' element={<About/>}/> 
+            <Route path='/question-answering/about' element={<About/>}/> 
         </RouterLink>
     </>
   )
