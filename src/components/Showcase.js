@@ -11,7 +11,7 @@ const Showcase = () => {
             container 
             spacing={0}
             direction="column"
-            justifyContent="flex-end"
+            justifyContent="center"
             alignItems="stretch"
             >
                 <Grid item xs={12}>
