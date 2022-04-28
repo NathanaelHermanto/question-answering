@@ -98,7 +98,7 @@ const Examples = () => {
                     </Paper>
                 </Grid>
 
-                <Grid item xs={12}>
+                <Grid item xs={12}  sx={{margin: 1, padding: 1}}>
                     <FormControl>
                         <FormLabel id="demo-row-radio-buttons-group-label">Language</FormLabel>
                         <RadioGroup
@@ -114,7 +114,7 @@ const Examples = () => {
                     </FormControl>
                 </Grid>
 
-                <Grid item xs={12}>
+                <Grid item xs={12} sx={{mr: 1, ml: 1, pr: 1, pl: 1}}>
                     <TextField 
                         id="outlined-textarea"
                         label="Passage"
@@ -126,7 +126,7 @@ const Examples = () => {
                     />
                 </Grid>
 
-                <Grid item xs={12}>
+                <Grid item xs={12} sx={{mr: 1, ml: 1, pr: 1, pl: 1}}>
                     <TextField 
                         id="outlined-textarea"
                         label="Question"
@@ -138,8 +138,8 @@ const Examples = () => {
                     />
                 </Grid>
 
-                <Grid item xs={12}>
-                    <Button onClick={handleSubmitButton} variant='contained' color='secondary' sx={{margin: 0.5, padding: 0.5, minWidth: '100%'}}> 
+                <Grid item xs={12}  sx={{mr: 1, ml: 1, pr: 1, pl: 1}}>
+                    <Button onClick={handleSubmitButton} variant='contained' color='secondary' sx={{minWidth: '100%'}}> 
                         Submit 
                     </Button>
                 </Grid>
